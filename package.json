@@ -1,0 +1,21 @@
+{
+  "name": "repo-context-lsp-starter-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#.git\"",
+    "validate:files": "node scripts/validate.mjs",
+    "validate": "npm run lint && npm run validate:files"
+  },
+  "devDependencies": {
+    "github-slugger": "2.0.0",
+    "markdown-it": "14.3.3",
+    "markdownlint-cli2": "0.24.0"
+  },
+  "overrides": {
+    "katex": "0.18.2",
+    "re2js": "2.8.7"
+  }
+}

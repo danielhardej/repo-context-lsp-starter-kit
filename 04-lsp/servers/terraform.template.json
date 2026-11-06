@@ -1,0 +1,13 @@
+{
+  "lspServers": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "rootUri": "{{TERRAFORM_PROJECT_PATH}}",
+      "fileExtensions": {
+        ".tf": "terraform",
+        ".tfvars": "terraform-vars"
+      }
+    }
+  }
+}

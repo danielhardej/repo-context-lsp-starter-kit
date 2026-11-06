@@ -1,0 +1,10 @@
+{
+  "lspServers": {
+    "go": {
+      "command": "gopls",
+      "args": [],
+      "rootUri": "{{GO_PROJECT_PATH}}",
+      "fileExtensions": { ".go": "go" }
+    }
+  }
+}

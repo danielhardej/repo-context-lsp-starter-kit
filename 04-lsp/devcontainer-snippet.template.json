@@ -1,0 +1,6 @@
+{
+  "postCreateCommand": "bash {{INSTALL_SCRIPT_PATH}} core",
+  "remoteEnv": {
+    "PATH": "${containerEnv:HOME}/.local/share/agl-lsp/npm/bin:${containerEnv:HOME}/.local/share/agl-lsp/bin:${containerEnv:PATH}"
+  }
+}

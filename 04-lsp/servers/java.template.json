@@ -1,0 +1,14 @@
+{
+  "lspServers": {
+    "java": {
+      "command": "{{PYTHON_COMMAND}}",
+      "args": [
+        "{{JDTLS_INSTALL_DIRECTORY}}/bin/jdtls",
+        "-configuration", "{{JDTLS_CONFIGURATION_DIRECTORY}}",
+        "-data", "{{JDTLS_WORKSPACE_DIRECTORY}}"
+      ],
+      "rootUri": "{{JAVA_PROJECT_PATH}}",
+      "fileExtensions": { ".java": "java" }
+    }
+  }
+}
